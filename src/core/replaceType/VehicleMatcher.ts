@@ -1,5 +1,5 @@
-import { OldVehicleQuery } from "./OldVehicleQuery";
+import { NewVehicleQuery } from './NewVehicleQuery';
 
 export interface VehicleMatcher {
-  countVehicles(query: OldVehicleQuery): number;
+  countVehicles(query: NewVehicleQuery): number;
 }
